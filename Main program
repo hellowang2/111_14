@@ -7,8 +7,8 @@ int count(int board[N][N],int row,int col);
 
 int main(){//main function
 	clock_t start_t,finish_t;
-    double total_t = 0;
-    start_t=clock();
+    	double total_t = 0;
+    	start_t=clock();
 	int board[N][N]={0};
 	int total=count(board,0,0);
 	printf("Total:%d\n",total);
